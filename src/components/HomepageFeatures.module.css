@@ -2,9 +2,11 @@
   display: flexbox;
   align-items: center;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0rem 0;
   width: 100%;
-  position: relative;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
