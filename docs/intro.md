@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Krishna M S
-**Email** - [krishna.ms@zensar.com](krishna.ms@zensar.com)
+**Email** - [krishna.ms@zensar.com](mailto:krishna.ms@zensar.com)
 
 
 
