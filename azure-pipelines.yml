@@ -32,4 +32,9 @@ stages:
               ArtifactName: "drop"
               publishLocation: "Container"
               
-          
+          - task: Docker@2
+            inputs:
+              containerRegistry: 'Docker HuB Krishna'
+              repository: '$(imageName)'
+              command: 'buildAndPush'
+              Dockerfile: '**/Dockerfile'
