@@ -32,9 +32,4 @@ stages:
               ArtifactName: "drop"
               publishLocation: "Container"
               
-          - task: Bash@3
-            inputs:
-              targetType: 'inline'
-              script: |
-                # Write your commands here
-                echo ls '$(Build.ArtifactStagingDirectory)'
+          
