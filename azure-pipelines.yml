@@ -34,16 +34,4 @@ stages:
               ArtifactName: "drop"
               publishLocation: "Container"
               
-          - task: Docker@2
-            inputs:
-              containerRegistry: 'Docker HuB Krishna'
-              repository: '$(imageName)'
-              command: 'build'
-              Dockerfile: '**/Dockerfile'
-              addPipelineData: false
-              addBaseImageData: false
-          - task: Docker@2
-            inputs:
-              containerRegistry: 'Docker HuB Krishna'
-              repository: '$(imageName)'
-              command: 'push'
+         
