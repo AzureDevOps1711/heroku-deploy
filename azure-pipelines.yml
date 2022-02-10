@@ -44,22 +44,4 @@ steps:
     repository: '$(imageName)'
     command: 'push'
 
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: |
-      # Write your PowerShell commands here.
-      
-      heroku login
-      
-      heroku create krishna-pipeline-cv
-      
-      docker login --username=githubkrish@gmail.com --password=${env:HEROKUTOKEN} registry.heroku.com
-      
-      heroku container:login
-      
-      docker tag ${env:IMAGENAME}:${env:BUILD_BUILDID} registry.heroku.com/krishna-pipeline-cv/web
-      
-      docker push registry.heroku.com/krishna-pipeline-cv/web
-      
-      heroku container:release web -a krishna-pipeline-cv
+
