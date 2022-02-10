@@ -1,8 +1,6 @@
-FROM ubuntu
-LABEL author.name ="Krishna M S"
-LABEL author.email ="githubkrish@gmail.com"
-RUN apt-get update
-RUN apt-get install nginx -y
-COPY build /var/www/html/
-EXPOSE 80
-CMD ["nginx","-g","daemon off;"]
+FROM nginx:alpine
+
+COPY build/ /usr/share/nginx/html
+COPY nginx/default.conf /etc/nginx/conf.d/
+
+CMD sed -i -e 's/$PORT/'"$PORT"'/g' /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'
