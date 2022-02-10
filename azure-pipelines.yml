@@ -13,7 +13,7 @@ stages:
         pool:
           vmImage: "ubuntu-latest"
         variables:
-          imageName: 'krishna-cv-docker'
+          imageName: 'krishnamsgit/krishna-cv-docker'
         steps:
           - task: NodeTool@0
             inputs:
