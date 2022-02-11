@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Krishna M S
-**Email** - [krishna.ms@zensar.com](mailto:krishna.ms@zensar.com)
+**Email** - [krishna.ms@abc.com](mailto:krishna.ms@abc.com)
 
 
 **Mr.Krishna M S has around 10 years of technical experience in result oriented professional experience in IT Industry. Experienced Azure DevOps tools such as Azure Boards, Azure Repos, Azure Pipelines and Azure Artifacts. Has good experience in DevOps tools like GIT, AZURE DevOps using Azure portals and managed Azure resources to Azure Resource Manager. Experienced with CICD Deployments in Azure cloud, Oracle cloud. Has working experience in ARM templates to deploy and update multiple resources in Azure. Has exposure in PowerShell scripting to automate many services management in azure. Experienced on working with Azure Compute, networking and Storage services. Has an exposure to Terraform IaC tool.**
