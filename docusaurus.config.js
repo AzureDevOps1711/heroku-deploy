@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/krishna-ms-git/CV/tree/main/',
+          editUrl: 'https://github.com/krishna-ms-git/heroku-deploy/tree/main/',
         },
         /*blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/krishna-ms-git/CV',
+            href: 'https://github.com/krishna-ms-git/heroku-deploy',
             label: 'GitHub',
             position: 'right',
           },
@@ -75,11 +75,11 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/krishna-ms-git/CV',
+                href: 'https://github.com/krishna-ms-git/heroku-deploy',
               },
             ],
           },
-          /*{
+          /*{ 
             title: 'More',
             items: [
               {
